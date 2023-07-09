@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica crear un Tutorial</title>
+</head>
+    <style>
+         .card {
+            background-color: #f1f1f1;
+            border-radius: 10px;
+            padding: 20px;
+            width: 300px;
+            margin: 0 auto;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .name {
+            color: #333;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .description {
+            font-size: 16px;
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
+
+        .skills {
+            list-style-type: none;
+            padding: 0;
+            margin-bottom: 0;
+        }
+
+        .skills li {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            margin-bottom: 10px;
+            border-radius: 20px;
+        }
+    </style>
+<body>
+    <div class="card">
+        <h1 class="name">Nombre del Estudiante</h1>
+        <p class="description">Una breve descripción sobre mí como estudiante.</p>
+        <ul class="skills">
+            <li>Habilidad 1</li>
+            <li>Habilidad 2</li>
+            <li>Habilidad 3</li>
+        </ul>
+    </div>
+</body>
+</html>
